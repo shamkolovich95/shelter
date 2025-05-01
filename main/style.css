@@ -1,3 +1,82 @@
-body {
-    background-color: black;
+@import '../style/fonts.css';
+@import '../style/normalize.css';
+@import '../style/root.css';
+@import '../style/addClass.css';
+
+body,
+html {
+    height: 100%;
 }
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.container {
+    margin-inline: 40px;
+}
+
+/*! Header */
+
+.header {
+    background-color: var(--start-screen-gradient-background);
+    background-image: radial-gradient(237.5% 111.8% at 0% 0%, #5b483a 0%, #262425 100%);
+}
+
+.header-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logo {}
+
+.logo-name {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: var(--color-primary);
+}
+
+.logo-surname {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    color: var(--color-light-xl);
+}
+
+.header-nav {}
+
+.nav {}
+
+.nav-list {
+    display: flex;
+    gap: 45px;
+}
+
+.list {}
+
+.list-item {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: var(--color-dark-s);
+}
+
+main {
+    flex-grow: 1;
+}
+
+.footer {}

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Georgia';
+    src: url(../assets/fonts/Georgia.woff2) format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ariel';
+    src: url(../assets/fonts/Arial-BoldItalicMT.woff2) format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../assets/fonts/Inter18pt-Regular.woff2) format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
