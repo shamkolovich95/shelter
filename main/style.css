@@ -12,6 +12,8 @@ html {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .container {
@@ -27,6 +29,7 @@ html {
 
 .header-container {
     margin-top: 30px;
+    margin-bottom: 90px;
     display: flex;
     justify-content: space-between;
 }
@@ -74,6 +77,50 @@ html {
     line-height: 160%;
     color: var(--color-dark-s);
 }
+
+/*! Not Only section */
+
+.only {}
+
+.only-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 42px;
+}
+
+.only-about {
+    max-width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 42px;
+}
+
+.only-title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    color: var(--color-light-xl);
+}
+
+.only-text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: var(--color-dark-s);
+}
+
+.only-btn {
+    border-radius: 100px;
+    padding: 15px 45px;
+    background: var(--color-primary-light);
+}
+
+.only-img {}
+
+/*! Main */
 
 main {
     flex-grow: 1;
